@@ -1,0 +1,15 @@
+.pink {
+  background-color: #FFB8C4;
+}
+
+.red {
+  background-color: #F67577;
+}
+
+[class*="col-"] {
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  border: solid 1px black;
+}
+
