@@ -3,13 +3,17 @@
 }
 
 .red {
+  padding: 1%;
   background-color: #F67577;
 }
 
 [class*="col-"] {
-  height: 150px;
   text-align: center;
   line-height: 150px;
   border: solid 1px black;
 }
 
+
+.nested [class*="col-"] {
+  border-color: white;
+}
