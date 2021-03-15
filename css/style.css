@@ -1,4 +1,4 @@
-.container {
+.row {
   height: 180px;
 }
 .pink {
@@ -6,7 +6,6 @@
 }
 
 .red {
-  padding: 1%;
   background-color: #F67577;
 }
 
@@ -14,6 +13,7 @@
   position: relative;
   text-align: center;
   height:100%;
+  padding: 5px;
   border: solid 1px black;
 }
 
@@ -23,7 +23,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.nested {
+  height: 100%;
+}
 .nested [class*="col-"] {
   border-color: white;
 }
